@@ -1,0 +1,26 @@
+---
+title: "Aula 1"
+author: "Douglas Cardoso"
+date: "2/14/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Anotações Gerais
+
+- Machine learning dividido entre Supervisionado, Não-Supervisionado e Por Reforço
+
+- Unsupervised: Clustering e Dimensionality Reduction
+- Supervised: Classification e Regression
+- Matematicamente, queremos aproximar um $y$ a uma função $f$ aplicada a $x$, que são variáveis explicativas que tenho controle e que usarei para o meu modelo.
+
+## Definições e nomeclaturas
+
+- $X_1$, $X_2$: variáveis explicativas
+- $X$: conjunto de todas as *features*
+- $Y$: variável resposta (dependente), *target*
+- $\hat(Y)$: valor esperado (predição ou estimato ou *fitted*)
+- $f(X)$: também é conhecida como Modelo ou Hipótese
